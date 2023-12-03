@@ -669,10 +669,10 @@ gap: 16px;
    
     }
 
-
-    .form-modal-window {
+/* 
+    .form-modal-window { 
       margin-bottom: 8px; 
-    }
+    }  */
     .lable-form-modal-window {
       font-size: 12px;
       line-height: 1.17; 
@@ -684,6 +684,7 @@ gap: 16px;
 
     .main-modal-window {
       position: relative;
+      margin-bottom: 8px;
     }
     .input-modal-window {
       width: 100%; 
@@ -708,13 +709,11 @@ gap: 16px;
     .icon-modal-window {
       position: absolute;
       left: 16px;
-      top: 50%;
+      top: 65%;
       transform: translateY(-50%);
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    /* .input-modal-window + .icon-modal-window:focus {
-      fill: #4D5AE5;
-    } */
+    
     .comment-modal-window {
       margin-bottom: 16px;
     }
