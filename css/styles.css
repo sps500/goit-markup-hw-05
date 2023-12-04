@@ -73,6 +73,10 @@ ul {
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.nav_menu:focus, .nav_menu:hover{
+  color: #404bbf;
+}
 .item {
   padding: 24px 0;
   display: block;
@@ -95,11 +99,11 @@ a {
   text-decoration-line: none;
 }
 
-a:focus {
+.address_link:focus {
   color: #404bbf;
 }
 
-a:hover {
+.address_link:hover {
   color: #404bbf;
 }
 
@@ -484,6 +488,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 400;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+  margin-top: 16px;
 }
 .logo-studio {
   color: #f4f4fd;
@@ -500,11 +505,10 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--IRIS, #4d5ae5);
-
-  /* display: inline-block; */
-  margin-bottom: 16px;
+ 
+  
   justify-content: left;
-  display: flex;
+
 }
 
 .social-media {
@@ -592,10 +596,12 @@ gap: 16px;
       background-color: #4D5AE5;
       border: none; 
       border-radius: 4px;
-
-      margin-left: 24px;
-      
     }
+
+    .button-footer:hover, .button-footer:focus {
+      background-color: #404BBF;
+    }
+
     .icon-footer-subscribe {
       margin-left: 16px;
     }
@@ -802,3 +808,6 @@ text-decoration-line: underline;
       margin-right: auto;
     }
    
+.button-modal-send:hover, .button-modal-send:focus {
+background-color:#404BBF; 
+}
